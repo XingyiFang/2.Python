@@ -1,5 +1,5 @@
+#dataset: .txt file, check "sample-data-tweets.txt"
 __author__ = 'Han'
-# coding: utf-8
 
 import os
 import re
@@ -9,7 +9,6 @@ from datetime import datetime
 from datetime import timedelta
 import codecs
 import psycopg2
-# load the psycopg extras module
 import psycopg2.extras
 from os import listdir
 from os.path import isfile, join
@@ -22,7 +21,7 @@ for f in listdir(mypath):
 print onlyfiles
 
 try:
-    conn = psycopg2.connect("dbname='twitter' user='postgres' host='localhost' password='qinhan1021'")
+    conn = psycopg2.connect("dbname='twitter' user='postgres' host='localhost' password=''")
 except:
     print "I am unable to connect to the database"
 cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
