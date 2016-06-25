@@ -1,4 +1,3 @@
-#encoding=utf-8
 import json
 from pymongo import MongoClient
 from pymongo import Connection
