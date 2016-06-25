@@ -1,6 +1,6 @@
 __author__ = 'Han'
 #use the code before you change the paths
-#network data is in the data folder
+#network data: route_exclude_all_428.gdb.zip
 #purpose: calculate and output shortest paths of each two points.
 import arcpy, datetime, os
 from arcpy import env
