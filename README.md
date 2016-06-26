@@ -1,6 +1,6 @@
 # Here are some scripts for different purposes:
-*I would recommend to use some popular platforms for development, e.g. PyCharm, Anaconda, and Jupyter Notebook (was IPython)
-*Install python packages by yourself
+* I would recommend to use some popular platforms for development, e.g. PyCharm, Anaconda, and Jupyter Notebook (was IPython)
+* Install python packages by yourself
 
 1. Download streaming twitter data, put tweets into PostgreSQL
 2. ArcPy
